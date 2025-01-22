@@ -9,11 +9,50 @@ body {
 }
 #auquamire-area{
     background-color: #91f9e5;
-    color: aliceblue;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
     'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
     Verdana, sans-serif;
     text-align: center;
     padding: 0cm;
 
+}
+#light-skyblue-area{
+    background-color: #96cdff;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+      Verdana, sans-serif;
+      text-align: center;
+      padding: 0cm;
+}
+
+#columbia-blue-area{
+    background-color: #d6eeff;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+     Verdana, sans-serif;
+     text-align: center;
+     padding: 0cm;
+}
+
+#baby-blue-area{
+    background-color: #9dd1f1;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+      Verdana, sans-serif;
+      text-align: center;
+      padding: 0cm;
+}
+
+#air-force-blue-area{
+    background-color: #508aa8;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+     Verdana, sans-serif;
+     text-align: center;
+     padding: 0cm;
 }
