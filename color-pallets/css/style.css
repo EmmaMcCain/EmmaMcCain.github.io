@@ -1,0 +1,19 @@
+CSS Styles:
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#auquamire-area{
+    background-color: #91f9e5;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    text-align: center;
+    padding: 0cm;
+
+}
