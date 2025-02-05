@@ -1,4 +1,4 @@
-CSS Styles:
+
 * {
     box-sizing: border-box;
 }
@@ -34,4 +34,13 @@ body {
 
 #sidebar{
     grid-area: sidebar;
+}
+
+#header{
+text-align: center;
+color: blue
+}
+
+#column-3{
+    text-align: right;
 }
