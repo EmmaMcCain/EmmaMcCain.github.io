@@ -70,12 +70,16 @@ body {
         margin-bottom: 24px;
     }
 
-     .metube-item .thumbnail-placeholder {
-    aspect-ratio: 16/9;
+    .metube-item{
+        flex: 250px;
+        max-width: 350px;
+        margin-right: 12px;
+        margin-bottom: 24px;
+    }
+
+     .metube-item .thumbnail {
+        width: 100%;
+        aspect-ratio: 16/9;
      border-radius: 8px;
     }
-    .thumbnail-style{
-     border-radius:8px;
-     width: 100%;
-     weight: 100%;
-    }
+    
