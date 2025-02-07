@@ -1,0 +1,58 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-container{
+    width: 90vw;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+.cardstyle-1{
+width: 350px;
+}
+.card-style-1 img {
+    width: 78%;
+}
+.card-style-1 h2{
+    text-align: center;
+    background-color: #edfeee;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.card-style-1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #008000;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #008000;
+    transition: 
+    background-color .5s,
+    color .5s;
+
+}
+.card-style-1 img{
+    width: 100%;
+    height: 100%;
+}
+.card-style-1 p{
+    background-color: #edfeee;
+    flex: 1;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ 
