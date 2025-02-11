@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout{
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr ;
+    grid-template-areas: "thumbnail-images main-image sidebar";
+}
+
+#thumbnail-images{
+    grid-area:thumbnail-images ;
+}
+
+#thumbnail-images img{
+    height: 100px;
+    width: 75px;
+}
+
+#main-image{
+    grid-area: main-image;
+}
+
+#main-image img{
+    height: 250px;
+    width: 250px;
+}
+
+#sidebar{
+    grid-area: sidebar;
+}
+
+#header{
+text-align: center;
+color: blue
+}
+
+#column-3{
+    text-align: right;
+}

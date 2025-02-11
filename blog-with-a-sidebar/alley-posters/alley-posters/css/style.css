@@ -1,0 +1,41 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.image-1 { 
+    margin: 20px;  
+     width: 100px;
+     height: 100px;
+     display: block;
+     border:solid blue;
+ }
+ .image-2{
+     
+     width: 70px;
+     height: 70px;
+     display: block;
+     border:solid violet ;
+ }
+ .image-3{
+   
+     width: 47px;
+     height: 56px;
+     border: solid yellowgreen;
+ }
+ #outerframe-1{
+     width: 63px;
+     height: 63px;
+ }
+ #outerframe-2{
+     margin-left: 100px;
+     width: 74px;
+     height: 74px;
+ }
+ #outerframe-3{
+     width: 100px;
+     height: 100px;
+ }

@@ -1,0 +1,46 @@
+CSS Styles:
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas: 
+    ". content sidebar .";
+}
+#sidebar-content{
+    grid-area: sidebar;
+
+}
+
+#sidebar-content h2{
+    background-color: darkred;
+    padding: 12px;
+    margin: 0px;
+    color: yellow;
+    font-size: 18px;
+}
+
+#sidebar-content ul{
+    background-color: gainsboro;
+    border: 1px solid;color: darkred;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+}
+#sidebar-content a{
+    color: darkslategrey;
+    text-decoration:none;
+}
+#sidebar-content{
+    border-bottom: 1px soild ;color: red;
+    padding: 8px 8px
+}
+#sidebar-content li: last-child{
+    border-bottom: 0px
+}
