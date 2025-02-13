@@ -8,22 +8,31 @@
     of the setup.css styling if you do so.
 */
 .card-style-3{
-    background-color: lawngreen;
-    border: 16px solid fuchsia;
+   border: 16px solid gold;
     border-radius: 12px;
     padding: 16px;
     width: 350px;
     margin: 18px;
     display: flex;
     flex-direction: column;
-
+}
     .card-style-3 img{
         width: 100%;
-        border: 5px solid darkgreen;
-    
+        border: 5px solid goldenrod;
+    }
         .details{
-            background-color: lightpink;
-            
+            background-color: goldenrod;
+            text-align: center;
+    font-size: 12px;
+   font-weight: bold;
+   font-style: italic;
+   margin: 4px; }
+
+         .pokemon-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
          }
 
          .card-style-3 .attack-desciption{
@@ -34,26 +43,15 @@
         }
         .card-style-3 .power{
             font-size: 24px;
-            font-weight: bold;
+            font-weight:bolder;
+            right: 20%;
         }
         .card-style-3 .data{
             font-size: 11px;
             font-weight: bold;
-            border: 2px solid darkgreen;
+            border: 2px solid goldenrod;
          }
-         .card-style-3{
-            font-size: 11px;
-            font-weight: bold;
-            border: 10px solid darkgreen;
-           
-         }
-        
-         .card-style-3 pokemon-header{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 18px;
-         }
+
         
          .card-style-3 h2{
             margin: 0px;
@@ -66,5 +64,21 @@
             align-items: center;
             margin: 8px 0px;
             padding: 8px 0px 16px;
-            border-bottom: 2px soild black;
+            border-bottom: 2px solid black;
+         }
+
+         #pokemon-card-one,
+         #pokemon-card-two{
+            background:
+        linear-gradient(-25deg, lightgreen, forestgreen, lightgreen);
+         }
+
+         #pokemon-card-three{
+            background:
+        linear-gradient(-25deg, orange, orangered, orange);
+         }
+
+         #pokemon-card-four{
+            background:
+        linear-gradient(-25deg, aqua, skyblue, aqua);
          }
