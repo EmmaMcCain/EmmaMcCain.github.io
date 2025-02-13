@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+.teko-uniquifier {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+  }
+
+  #hero-1 {
+    background-image: url("../images/gallery-work/hi-res/urban-hi-res-3q76.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    color: white;
+
+}
+
+#hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    left: 0%;
+    bottom: 30%;
+}
+
+.jim-gallery{
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.jim-gallery img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-size:36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+#centered-column{
+    width:100vw;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card a{
+    color: black;
+}
