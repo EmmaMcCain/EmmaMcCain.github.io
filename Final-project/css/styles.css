@@ -1,4 +1,10 @@
-CSS Styles:
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+.bodoni-moda-sc{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 * {
     box-sizing: border-box;
 }
@@ -6,4 +12,86 @@ CSS Styles:
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#navbar-1 h1{
+   margin-right: auto;
+}
+
+#navbar-1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#680c0c ;
+    color:white
+    
+}
+
+#navbar-2{
+    background:#d6cdcd;
+  
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#navbar-2 a{
+color:Black;
+    margin-right:auto;
+}
+
+#hero-1{
+    background-image: url("../images/Burger.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    color: white;
+}
+
+#hero-1 h1{
+    font-size: 50px;
+    position: absolute;
+    right:20%;
+    bottom:50%;
+}
+
+#hero-1 a{
+    font-size:14px;
+    display: inline-block;
+    background-color:#380101;
+    color:white;
+    text-decoration:none;
+    padding:24px;
+    position:absoulte;
+    right:20%;
+    bottom:41%;
+
+}
+
+#navbar-3{
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white
+}
+
+#footer{
+    background:black;
+    color:white;
+   min-height:100px;
+}
+#footer a{
+    text-decoration:none;
+    color:white;
+    padding:12px;
+}
+
+.menu.html{
+    background-color:aqua
 }
