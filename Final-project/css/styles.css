@@ -124,4 +124,66 @@ color:Black;
     padding:10px;
     box-shadow:-4px 4px 12px lightgray;
     display:flex;
+    flex-direction:column;
+    min-height:500px;
+}
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+.card h2{
+    font-size:20px;
+    margin-top:12px;
+    margin-bottom:0px;
+}
+
+.card a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #680c0c;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #380101;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.card a.customize {
+    margin-top: 15px;
+    color: black;
+    background-color: transparent;
+}
+ 
+.card a:hover {
+    background-color: transparent;
+    color: black;
+}
+ 
+.card a.customize:hover {
+    margin-top: 15px;
+    color: white;
+    background-color: #380101;
+}
+ 
+.card p {
+    font-size: 18px;
+    flex: 1;
+}
+ 
+@media screen and (max-width: 800px) {
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        ". item1 ."
+        ". item2 .";
+        max-width: 1000px;
+        gap: 15px;
+        margin-top: 15px;
+    }
 }

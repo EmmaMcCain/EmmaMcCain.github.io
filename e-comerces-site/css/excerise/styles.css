@@ -1,4 +1,3 @@
-CSS Styles:
 * {
     box-sizing: border-box;
 }
@@ -6,4 +5,46 @@ CSS Styles:
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#navbar {
+    background: red;
+    display: flex;
+   align-items:center;
+   justify-content: center;
+   color: white;
+   margin-bottom: 20px;
+  
+}
+#navbar-2 .cta-button {
+    background-color: white;
+    color: purple;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-2 a{
+    color: purple;
+}
+
+#navbar-3 a{
+    color: purple;
+}
+
+#navbar-4{
+    width:350px;
+    height:350px;
+     display: flex;
+   align-items:center;
+   justify-content: center;
+   margin-bottom: 20px;
+   background-color: blueviolet;
+   color:white;
+   margin-right:auto;
+   margin-left:auto;
 }

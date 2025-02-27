@@ -7,3 +7,15 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#hero-1{
+    background-image: url("../images/lilypad.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    color: white;
+}

@@ -56,13 +56,13 @@ background: slateblue;
     visibility:hidden;
     transition:
     opacity 0.25s,
-    visiblity 0.25s;
+    visibility 0.25s;
 }
 
 
 .dropdown-container:hover .dropdown-menu{
 opacity: 1;
-visibility: visbile;
+visibility: visible;
 }
 
 .dropdown-container:last-child .dropdown-menu{

@@ -1,4 +1,4 @@
-CSS Styles:
+
 * {
     box-sizing: border-box;
 }
@@ -6,4 +6,98 @@ CSS Styles:
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+#navbar{
+    background: linear-gradient(to bottom, rgb(252, 252, 163), #d0db39);
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: lightcoral;
+    padding: 24px;
+}
+
+#hero-1{
+    background-image: url(../images/dog.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    color: white;
+}
+
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover{
+    background: linear-gradient(to top, pink, white);
+}
+
+.dropdown-container{
+    position :relative;
+}
+
+.dropdown-menu{
+    position:absolute;
+}
+.dropdown-menu a{
+    background-color: pink;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover{
+    background:lightyellow ;
+}
+.dropdown-menu{
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container:hover .dropdown-menu{
+    opacity:1;
+    visibility:visible;
+    z-index:99;
+}
+.dropdown-container{
+    position :relative;
+}
+
+.dropdown-menu2{
+    position:absolute;
+}
+.dropdown-menu2 a{
+    background-color: pink;
+    width: 100%;
+    min-width: 200px;
+}
+navbar .dropdown-menu2 a:hover{
+    background:lightyellow;
+}
+.dropdown-menu2{
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container2:hover .dropdown-menu2{
+    opacity:1;
+    visibility:visible;
+    z-index:99;
+}
+.dropdown-container2{
+    position :relative;
 }
