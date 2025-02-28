@@ -167,7 +167,7 @@ color:Black;
 .card a.customize:hover {
     margin-top: 15px;
     color: white;
-    background-color: #380101;
+    background-color: #680c0c;
 }
  
 .card p {
@@ -186,4 +186,14 @@ color:Black;
         gap: 15px;
         margin-top: 15px;
     }
+}
+ 
+#navbar-2 a:hover {
+    color: white;
+}
+
+#navbar-1 a{
+    text-decoration:none;
+    color:white;
+    margin-right:auto;
 }
