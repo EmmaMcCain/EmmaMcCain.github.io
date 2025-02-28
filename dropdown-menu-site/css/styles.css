@@ -19,18 +19,7 @@ body {
     padding: 24px;
 }
 
-#hero-1{
-    background-image: url(../images/dog.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
-    margin-bottom: 100px;
-    color: white;
-}
+
 
 #navbar #logo{
     margin-right: auto;
@@ -100,4 +89,40 @@ navbar .dropdown-menu2 a:hover{
 }
 .dropdown-container2{
     position :relative;
+}
+#hero-1 {
+    background-image: url("../images/sammy.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-2{
+    background-image: url("../images/dog.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    color:white;
+}
+#hero-3{
+    background-image: url("../images/cody.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    color:white;
+
 }
