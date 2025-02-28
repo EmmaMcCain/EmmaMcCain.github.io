@@ -1,4 +1,4 @@
-CSS Styles:
+
 * {
     box-sizing: border-box;
 }
@@ -6,4 +6,47 @@ CSS Styles:
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+#navbar-1{
+    text-align:center;
+    
+}
+#navbar-2 img{
+    width:250px;
+}
+#navbar-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#navbar-3 h2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#navbar-4 h1{
+    text-align:center;
+}
+#navbar-4 h3{
+    text-align:center;
+}
+#navbar-5 a{
+    font-size:14px;
+    display: inline-block;
+    background-color: purple;
+    color:yellow;
+    text-decoration:none;
+    padding:24px;
+    position:absoulte;
+    right:20%;
+    bottom:41%;
+}
+#navbar-5{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+#navbar-6 h2{
+    text-align:center;
 }
