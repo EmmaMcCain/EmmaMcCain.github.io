@@ -91,9 +91,17 @@ background-color: gray;
 #navbar-4{
     background-color:#8e1600;
     color:white;
-    margin-top:0px;
+    margin-top:5px;
     margin-bottom:0px;
     padding:20px;
+    max-width:275px;
+    cursor: pointer;
+}
+#navbar-4:hover{
+    background-color:white;
+    color:#8e1600;
+    border:2px solid #8e1600;
+    max-width:280px;
 }
 #navbar-5{
     background-color:gray;
