@@ -112,3 +112,20 @@ navbar .dropdown-menu2 a:hover{
 .card h2{
     color:salmon;
 }
+
+#hero{
+    background-image: url("../images/person.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero h1{
+    font-zie:120px;
+    position:absolute;
+    left:20px;
+}

@@ -40,6 +40,10 @@ color:Black;
     margin-right:auto;
 }
 
+#navbar-2 a:hover{
+background-color: gray;
+}
+
 #hero-1{
     background-image: url("../images/Burger.jpg");
     height: 100vh;
@@ -63,16 +67,19 @@ color:Black;
 #hero-1 a{
     font-size:14px;
     display: inline-block;
-    background-color:#380101;
-    color:white;
+    background-color:white;
+    color:#380101;
     text-decoration:none;
     padding:24px;
-    position:absoulte;
-    right:20%;
+    position:absolute;
+    right:50%;
     bottom:41%;
 
 }
-
+#hero-1 a:hover{
+    background-color: lightgrey;
+    color: black;
+}
 #navbar-3{
     background:black;
     display:flex;
@@ -81,42 +88,64 @@ color:Black;
     color:white
 }
 
-#footer{
-    background:black;
+#navbar-4{
+    background-color:#8e1600;
     color:white;
-   min-height:100px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:20px;
 }
-#footer a{
-    text-decoration:none;
+#navbar-5{
+    background-color:gray;
     color:white;
-    padding:12px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:20px;
 }
 
-#navbar-4 h3{
-    font: size 14px;
+#navbar-5 a{
+    color:#680c0c;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
     display: inline-block;
-    background-color:#680c0c;
-    color:white;
-    text-decoration:none;
-    padding:24px;
-    position:absoulte;
-    right:20%;
-    bottom:41%,
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #380101;
+    transition:
+        background-color .5s,
+        color .5s;
 }
+
+#navbar-5 a:hover{
+    background-color:lightgray;
+}
+
 .grid-layout{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    ".item1 item2";
-    max-width:1000px;
+    "item1 item2"
+    "item3 item4";
     gap:15px;
     margin-top:15px;
+    margin-right:auto;
+    margin-left:auto;
+    max-width:1000px;
 }
 .item1{
     grid-area:item1;
 }
 .item2{
     grid-area:item2;
+}
+.item3{
+    grid-area:item3;
+}
+.item4{
+    grid-area:item4;
 }
 .card{
     width:350px;
@@ -139,11 +168,11 @@ color:Black;
 }
 
 .card a{
-    color:white;
+    color:#680c0c;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    background-color: #680c0c;
+    background-color: white;
     display: inline-block;
     width: 100%;
     padding: 10px;
@@ -178,11 +207,13 @@ color:Black;
 @media screen and (max-width: 800px) {
     .grid-layout {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas:
-        ". item1 ."
-        ". item2 .";
-        max-width: 1000px;
+        "item1"
+        "item2"
+        "item3"
+        "item4";
+        max-width: 800px;
         gap: 15px;
         margin-top: 15px;
     }
