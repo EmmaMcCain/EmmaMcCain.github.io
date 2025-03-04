@@ -46,37 +46,37 @@ function reactToMoveRightButton() {
 }
 
 function reactToMoveLeftButton() {
-moveleft(1);
+moveLeft(1);
 }
 
 function reactToMoveDownButton() {
-moveDown(2);
+moveDown(1);
 }
 
 function reactToMoveUpButton() {
-moveup(3);
+moveUp(1);
 }
 
 function reactToAttackButton() {
-Attack(1);
+attack();
 }
 
 function reactToJumpRightButton() {
-jumpright(2);
+jumpRight(3);
 }
 
 function reactToJumpLeftButton() {
-jumpleft(3);
+jumpLeft(3);
 }
 
 function reactToJumpDownButton() {
-jumpdown(1);
+jumpDown(3);
 }
 
 function reactToJumpUpButton() {
-jumpup(2);
+jumpUp(3);
 }
 
 function reactToJumpButton() {
-jump(3);
+jump();
 }
